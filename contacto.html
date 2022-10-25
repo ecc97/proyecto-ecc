@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Proyecto de prueba</title>
+  <link href="estilos/style.css" rel="stylesheet" type="text/css" />
+  <link rel="shortcut icon" href="assest/favicon/favicon.png">
+</head>
+<body>
+  <div class="content-contact">
+    <nav class="navbar navbar-m">
+      <div class="logo">
+        <img src="assest/img/logo.jpg" width="50px" height="50px">
+      </div>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="acercade.html">Acerca de</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="contenido">
+    <section class="seccion-contacto">
+      <div class="formulario">
+        <h4>Formulario de contacto</h4>
+        <p>Contacta con nosotros</p>
+        <form>
+          <label for="name"> Nombre</label>
+            <input type="text" name="name" id="name" placeholder="Ingresa nombre" required />
+          <label for="correo"> Correo electrónico</label>
+            <input type="email" name="correo" id="correo" placeholder="Ingresa email" required />
+          <label for="name"> Mensaje</label>
+            <textarea name="mensaje" id="mensaje" placeholder="Escribe tu mensaje..." required></textarea>
+          <label>
+            <input type="checkbox" required/>
+            Aceptar terminos y condiciones
+          </label>
+          <button type="submit" name="enviar" id="enviar">Enviar</button>
+        </form>
+      </div>
+    </section>
+  </div>
+  <div class="pie-footer">
+      <footer>
+        <div class="pie">
+            <h4>© Copyright 2022</h4>
+        </div>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
