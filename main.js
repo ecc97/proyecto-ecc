@@ -6,7 +6,7 @@ function mensaje(bloque) {
   
   setTimeout(function () {
     contenidom.style.display = 'none';
-  },1500)
+  },2000)
 }
 function generateRandomColor() {
   var r = Math.floor(Math.random() * 256); 
